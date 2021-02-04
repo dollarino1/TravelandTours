@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Mulish:wght@300;400;700&family=Playfair+Display:wght@900&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -165,26 +166,87 @@
         </div>
     </div>
 
-    <div class="container section-5">
-        <div class="row">
-            <div class="col-5 offset-1">
-                <h3 class="section-h3-title section-h3-title-section-5">Testimonials</h3>
-                <img src="img/stars.png" alt="">
-                <p class="section-text-1">“Quisque in lacus a urna fermentum <br>euismod. Integer mi nibh, dapibus ac <br>scelerisque eu, facilisis quis purus. <br>Morbi blandit sit amet turpis nec”</p>
-                <h4 class="name">Edward Newgate</h4>
-                <p class="section-text">Founder Circle</p>
-            </div>
-            <div class="col-6">
-                <div class="card-2">
-                    <img src="img/char1.png" alt="char1">
-                    <div class="card-2-block">
-                        <img src="img/previous.png" alt="prev">
-                        <img src="img/next.png" alt="next">
+    <div class="slider swiper-container">
+        <div class="swiper-wrapper">
+            
+            <section class="slide swiper-slide">
+                <div class="container section-5">
+                    <div class="row">
+                        <div class="col-5 offset-1">
+                            <h3 class="section-h3-title section-h3-title-section-5">Testimonials</h3>
+                            <img src="img/stars.png" alt="">
+                            <p class="section-text-1">“Quisque in lacus a urna fermentum <br>euismod. Integer mi nibh, dapibus ac <br>scelerisque eu, facilisis quis purus. <br>Morbi blandit sit amet turpis nec”</p>
+                            <h4 class="name">Edward Newgate</h4>
+                            <p class="section-text">Founder Circle</p>
+                        </div>
+                        <div class="col-6">
+                            <div class="card-2">
+                                <img src="img/char1.png" alt="char1">
+
+                            </div>
+                        </div>
                     </div>
                 </div>
-                
+            </section>
+
+            <section class="slide swiper-slide">
+                <div class="container section-5">
+                    <div class="row">
+                        <div class="col-5 offset-1">
+                            <h3 class="section-h3-title section-h3-title-section-5">Testimonials</h3>
+                            <img src="img/stars.png" alt="">
+                            <p class="section-text-1">“Quisque in lacus a urna fermentum <br>euismod. Integer mi nibh, dapibus ac <br>scelerisque eu, facilisis quis purus. <br>Morbi blandit sit amet turpis nec”</p>
+                            <h4 class="name">Edward Newgate</h4>
+                            <p class="section-text">Founder Circle</p>
+                        </div>
+                        <div class="col-6">
+                            <div class="card-2">
+                                <img src="img/char1.png" alt="char1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="slide swiper-slide">
+                <div class="container section-5">
+                    <div class="row">
+                        <div class="col-5 offset-1">
+                            <h3 class="section-h3-title section-h3-title-section-5">Testimonials</h3>
+                            <img src="img/stars.png" alt="">
+                            <p class="section-text-1">“Quisque in lacus a urna fermentum <br>euismod. Integer mi nibh, dapibus ac <br>scelerisque eu, facilisis quis purus. <br>Morbi blandit sit amet turpis nec”</p>
+                            <h4 class="name">Edward Newgate</h4>
+                            <p class="section-text">Founder Circle</p>
+                        </div>
+                        <div class="col-6">
+                            <div class="card-2">
+                                <img src="img/char1.png" alt="char1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="slider-nav">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-1">
+                        <button class="slider-button slider-button-prev">
+                            <img src="img/prev-2.png" alt="prev">
+                        </button>
+                    </div>
+                    <div class="col-1">
+                        <button class="slider-button slider-button-next">
+                            <img src="img/next-2.png" alt="next">
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </div> 
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

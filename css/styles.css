@@ -185,16 +185,15 @@ img[alt="char1"] {
     border-radius: 14px;
     margin-left: 120px;
 }
-.card-2 {
+
+.slider {
     position: relative;
 }
-.card-2-block {
+.slider-nav {
     position: absolute;
-    top: 90%;
-    right: 20%;
-    padding: 20px;
-    border-radius: 20px 0 0 0;
-    background: white;
+    top:60%;
+    width:100%;
+    z-index: 9;
 
 }
 img[alt="prev"] {
@@ -212,4 +211,9 @@ img[alt="prev"] {
     font-size: 22px;
     color: #000000;
     margin-bottom: 0px;
+}
+.slider-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
