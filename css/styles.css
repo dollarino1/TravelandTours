@@ -217,6 +217,20 @@ img[alt="prev"] {
     border: none;
     cursor: pointer;
 }
+.section-2-title {
+    width: 400px;
+}
+.section-2-text {
+    width: 500px;
+}
+.section-text-4 {
+    width: 400px;
+}
+@media (max-width: 1900px) {
+    .card {
+        width: 270px;
+    }
+}
 @media (max-width: 1200px) {
     .navigation {
         margin-right: 40px;
@@ -288,6 +302,36 @@ img[alt="prev"] {
     }
     .card {
         width: 100%;
-        margin-left: 60px;
+        margin-left: 40px;
     }
+    .section-h3-title-section-5 {
+        font-size: 25px;
+    }
+    .section-text-4 {
+        font-size:13px;
+    }
+    img[alt="char1"] {
+        margin-top: 200px;
+        border-radius: 14px;
+        margin-left: 10px;
+        height: 200px;
+    }
+    img[alt="stars"] {
+        width: 5px;
+    }
+    .name {
+        font-size: 15px;
+    }
+    .section-last-text {
+        font-size: 12px;
+    }
+    .section-2-title {
+        width: 250px;
+        text-align: center;
+    }
+    .section-2-text {
+        width: 300px;
+        text-align: center;
+    }
+
 }
