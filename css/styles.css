@@ -174,3 +174,42 @@ img[alt="picture"] {
 .section-text-4 {
     margin-bottom: 40px;
 }
+.section-5 {
+    margin-top: 200px;
+}
+.section-h3-title-section-5 {
+    margin-bottom: 120px;
+}
+img[alt="char1"] {
+    margin-top: 130px;
+    border-radius: 14px;
+    margin-left: 120px;
+}
+.card-2 {
+    position: relative;
+}
+.card-2-block {
+    position: absolute;
+    top: 90%;
+    right: 20%;
+    padding: 20px;
+    border-radius: 20px 0 0 0;
+    background: white;
+
+}
+img[alt="prev"] {
+    margin-right: 5px;
+}
+.section-text-1 {
+    font-size: 24px;
+    line-height: 36px;
+    color:black;
+    font-family: 'Mulish', sans-serif;
+    margin-bottom: 40px;
+}
+.name {
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    color: #000000;
+    margin-bottom: 0px;
+}
