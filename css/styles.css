@@ -238,11 +238,22 @@ img[alt="prev"] {
 .section-text-4 {
     width: 400px;
 }
+.section-1 {
+    width: 50%;
+}
 
 @media (max-width: 1900px) {
     .card {
         width: 270px;
     }
+    .navigation-item-button:not(:last-child)
+    {
+        margin-right: 15px;
+    }
+    .section-title {
+        width: 400px;
+    }
+
 }
 @media (max-width: 1200px) {
     .navigation {
@@ -327,9 +338,6 @@ img[alt="prev"] {
     .navigation-item {
         display: none;
     }
-    img[alt="picture3"] {
-        width: 350px;
-    }
     .section-text-1 {
         font-size:15px;
     }
@@ -345,48 +353,86 @@ img[alt="prev"] {
     .section-text-4 {
         margin-left: 55px;
     }
+    .navigation-item-button:not(:last-child)
+    {
+        margin-right: 0;
+    }
 
 }
 @media (max-width: 576px) {
-    img[alt="picture"] {
-        display: none;
+    .section-title {
+        font-size: 40px;
+        width:100%;
     }
-    img[alt="picture2"] {
-        width: 300px;
-        height: 250px;
-    }
-    .card {
+    .section-1 {
+        text-align: center;
         width: 100%;
-        margin-left: 40px;
     }
-    .section-h3-title-section-5 {
-        font-size: 25px;
-    }
-    .section-text-4 {
-        font-size:13px;
-    }
-    img[alt="char1"] {
-        margin-top: 200px;
-        border-radius: 14px;
-        margin-left: 10px;
-        height: 200px;
-    }
-    img[alt="stars"] {
-        width: 5px;
-    }
-    .name {
-        font-size: 15px;
-    }
-    .section-last-text {
-        font-size: 12px;
-    }
-    .section-2-title {
-        width: 250px;
-        text-align: center;
-    }
-    .section-2-text {
-        width: 300px;
-        text-align: center;
+    .navigation {
+        margin: 10px 0 0 0;
     }
 
+    .section-2-title, .section-title-3 {
+        font-size: 20px;
+        width: 250px;
+    }
+    .section-2-text, .section-text-4 {
+        font-size: 15px;
+        width: 250px;
+    }
+    .bg1 {
+        background:none;
+    }
+    .form-select {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .b-cen-0 {
+        margin: 0;
+    }
+    .b-cen {
+        margin: 0;
+    }
+    .section-2-title, .section-title-3 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .section-2-text, .section-text-4 {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .container-text-1, .container-text-2 {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .card-2 {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    img[alt="char1"] {
+        padding: 0;
+        margin: 0;
+    }
+    .section-h3-title-section-5 {
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .section-5 {
+        margin-top: 100px;
+    }
+    .text-1-cen {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .section-h3-title {
+        text-align: center;
+    }
 }
