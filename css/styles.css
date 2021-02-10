@@ -140,10 +140,10 @@ img[alt="picture"] {
     margin-top: 100px;
 }
 .card {
-    margin-top: 12px;
+    margin-top: 14px;
     position: relative;
     padding:0;
-    width: 270px;
+    width: 260px;
 }
 .card img {
     background: #C4C4C4;
@@ -241,6 +241,58 @@ img[alt="prev"] {
 .section-1 {
     width: 50%;
 }
+.section-6 {
+    padding-top: 400px;
+}
+.card_res {
+    width: 266px;
+    height: 337px;
+    margin-right: 15px;
+}
+.card_res-2 {
+    width: 266px;
+    height: 337px;
+    margin-right: 15px;
+}
+.card_res-2:not(:last-child) {
+    margin-right: 15px;
+}
+.section_6_card_res-2 {
+    width: 266px;
+    height: 337px;
+}
+.section_6_card_res-2:not(:last-child) {
+    margin-right: 15px;
+}
+.section_6_card {
+    
+}
+.section_6_img {
+    height: 230px;
+    width: 260px;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 13px;
+}
+.section_6_title {
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 30px;
+    font-family: 'Inter', sans-serif;
+}
+.section_6_text {
+    color: #7D7987;
+    font-size: 15px;
+    line-height: 26px;
+    font-family: 'Inter', sans-serif;
+}
+.section_6_link {
+    color: #FB8F1D;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
 
 @media (max-width: 1900px) {
     .card {
@@ -252,6 +304,31 @@ img[alt="prev"] {
     }
     .section-title {
         width: 400px;
+    }
+    .section_6_card_res {
+        margin-top: 0px;
+        width: 260px;
+        margin-right: 25px;
+    }
+    .section_6_card_res-2 {
+        margin-top: 0px;
+        width: 260px;
+    }
+    .section_6_card_res-2:last-child {
+        margin-left: 0px;
+        margin-top: 0px;
+        height: 440px;
+
+    }
+    .section_6_card_res-2:not(:last-child) {
+        margin-right: 0px;
+        margin-top: 0px;
+        height: 440px;
+        margin-right: 25px;
+    }
+    .section_6_card {
+        margin-top: 0px;
+        width: 260px;
     }
 
 }
@@ -279,6 +356,38 @@ img[alt="prev"] {
         background-position: right bottom 25%;
         background-size: 500px;
     }
+    .section_6_card_res {
+        margin-top: 30px;
+        width: 350px;
+    }
+    .section_6_card_res-2 {
+        margin-top: 30px;
+        width: 260px;
+        
+    }
+    .section_6_card_res-2:last-child {
+        margin-left: 60px;
+        margin-top: 30px;
+    }
+    .section_6_card_res-2:not(:last-child) {
+        margin-right: 60px;
+        margin-top: 30px;
+    }
+    .section_6_card {
+        width: 260px;
+    }
+    .card_res {
+        width: 400px;
+    }
+    .card_res-2:not(:last-child) {
+        margin-right: 150px;
+        margin-top: 50px;
+    }
+    .card_res-2:last-child {
+        margin-right: 25px;
+        margin-top: 50px;
+    }
+
 }
 @media (max-width: 992px) {
     .navigation-item:not(:last-child) {
@@ -329,9 +438,35 @@ img[alt="prev"] {
     .card-block {
         right: 145px;
     }
+    .card-block-2 {
+        right: 140px;
+    }
     .bg3 {
         background-position: right bottom 35%;
         background-size: 320px;
+    }
+    .card_res {
+        width: 300px;
+    }
+    .card_res-2:not(:last-child) {
+        margin-right: 55px;
+        margin-top: 50px;
+    }
+    .card_res-2:last-child {
+        margin-right: 10px;
+        margin-top: 50px;
+    }
+    .section_6_card_res {
+        margin: 0;
+        padding: 0;
+    }
+    .section_6_card_res-2 {
+        margin: 0;
+        padding: 0;
+    }
+    .section_6_card {
+        margin: 0;
+        padding: 0;
     }
 }
 @media (max-width: 768px) {
@@ -356,6 +491,36 @@ img[alt="prev"] {
     .navigation-item-button:not(:last-child)
     {
         margin-right: 0;
+    }
+    .card_res {
+        width: 300px;
+    }
+    .card_res-2:not(:last-child) {
+        margin-right: 10px;
+        margin-top: 0;
+    }
+    .card_res-2:last-child {
+        margin-right: 10px;
+        margin-top: 0;
+    }
+    
+    .section_6_card_res-2 {
+        margin-top: 30px;
+        width: 290px;
+        margin-bottom: 30px;
+    }
+    .section_6_card_res-2:last-child {
+        margin-left: 0px;
+
+    }
+    .section_6_card_res-2:not(:last-child) {
+        margin-right: 0px;
+    }
+    .section_6_card {
+        width: 260px;
+    }
+    .section_6_card_res {
+        margin-bottom: 40px;
     }
 
 }
@@ -434,5 +599,12 @@ img[alt="prev"] {
     }
     .section-h3-title {
         text-align: center;
+    }
+    .section_6_card_res-2 {
+        margin:0;
+        padding: 0;
+        width: 442px;
+    }
+    .section_6_card {
     }
 }
