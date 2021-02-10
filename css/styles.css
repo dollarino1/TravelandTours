@@ -294,7 +294,7 @@ img[alt="prev"] {
     text-decoration: none;
 }
 
-@media (max-width: 1900px) {
+@media (max-width: 2000px) {
     .card {
         width: 270px;
     }
