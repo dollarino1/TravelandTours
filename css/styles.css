@@ -648,4 +648,24 @@ img[alt="prev"] {
         margin: 0;
         padding: 0;
     }
+    .card_res {
+        margin-right: 0;
+        padding: 0;
+    }
+    .card_res-2 {
+        padding: 0;
+        width: 300px;
+    }
+    img[alt="card1"] {
+        width:270px;
+    }
+    .card_res-2:not(:last-child) {
+        margin-right: 0;
+    }
+    .card_res-2:last-child {
+        margin-right: 0;
+    }
+    .card-block {
+        right: 152px;
+    }
 }
